@@ -23,6 +23,9 @@ print(Xmas_gifts_list)
 Xmas_gifts_list.remove('Chocolate')
 print(Xmas_gifts_list)
 
+
+
+
 Xmas_gifts_list.append('Chocolate Bars')
 print(Xmas_gifts_list)
 Xmas_gifts_list.append('Toys')
