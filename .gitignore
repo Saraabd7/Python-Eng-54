@@ -1,2 +1,8 @@
 venv
 .idea/
+exercise _101.py
+101_python_variables_print_type.py
+102_python_data_types.py
+103_integers.py
+104_boolean.py
+105_lists.py
