@@ -21,5 +21,10 @@ print(book)
 data_type_of_book = type(book)
 print (data_type_of_book)
 
+# input() - prompt for user input
+# and you can add a string to the argument so it prints before capturing the input
+# example:
+input ('this get printed before ')
+       '')
 ## Conventions
 ## Lower case for variable naming with under score.
