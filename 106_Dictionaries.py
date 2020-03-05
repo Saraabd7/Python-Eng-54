@@ -1,8 +1,8 @@
 # Dictionaries
-# it is organised by keys which it is values.
+# It is organised by keys which it is values.
 # Work with Keys and value Pairs.
 # Work like a real dictionary, you just lookup the information for the specific key.
-# The big differency with list is they are organised with index and here we use keys.
+# The big  difference with list is they are organised with index and here we use keys.
 # We just make a list of cring_landlords, but we need more information. like there phone numbers and address.
 
 # Syntax
