@@ -1,14 +1,28 @@
-movie_ratings = input('what is the rating of the movie? ')
+# Exercise_110:
 
-if movie_ratings == 'universal':
-    print('everyone can watch')
-elif movie_ratings == 'pg':
-    print('General viewing, but some scenes may be unsuitable for young children ')
-elif movie_ratings == '12':
-    print('Films classified 12A and video works classified 12 contain material that is not generally suitable for '
-          'children aged under 12. No one younger than 12 may see a 12A film in a cinema unless accompanied by an '
-          'adult.')
-elif movie_ratings == '15':
-    print('No one younger than 15 may see a 15 film in a cinema.')
-elif movie_ratings == '18':
-    print("No one younger than 18 may see an 18 film in a cinema")
+
+
+user_rating_input = input("What is the rating of the movie you are looking for? ")
+
+
+movies_rating = {
+"Universal": "Everyone can watch",
+"pg": "General viewing,but some scenes may be unsuitable for young children",
+"12": "Films classified 12A and video works classified 12 contain material "
+      "that is not generally suitable for children aged under 12. "
+      "No one younger than 12 may see a 12A film in a cinema unless accompanied by an adult.",
+"15": "no one younger than 15 may see a 15 film in a cinema",
+"18": "no one younger than 18 film in a cinema"
+}
+if user_rating_input == "universal":
+    print(movies_rating["Universal"])
+elif user_rating_input == "pg":
+    print(movies_rating["pg"])
+elif user_rating_input == "12":
+    print(movies_rating["12"])
+elif user_rating_input == "15":
+    print(movies_rating["15"])
+elif user_rating_input == "18":
+    print(movies_rating["18"])
+else:
+    print("Sorry,That is not a rating")

@@ -40,31 +40,23 @@ print(boris_dict)
 boris_dict['number_budgets_passed'] = 0
 print(boris_dict['number_budgets_passed'])
 print(boris_dict)
- # The following two lines do exactly the same thing - increase the original value by 1.
-
-boris_dict['number_budgets_passed'] + 1
-boris_dict['number_budgets_passed'] += 1
-print(boris_dict)
-
-value_inside = boris_dict['number_budgets_passed']
-print(type(value_inside))
-
+# the following two lines do exactly the same thing - increase the original value by 1
 # accessing the value with the key, saving to variable
-n_budget = boris_dict ['number_budgets_passed']
+n_budget = boris_dict['number_budgets_passed']
 
-# adding + 1 to that value
-n_budget = n_budget + 1  # now it is 1
-n_budget += 1  # now it is 2
+#  adding + 1 to that vale
+n_budget = n_budget + 1  # now its 1
+n_budget += 1  # now its 2
 print(n_budget)
 
-# ast5dm hay el traee2a meshan e7ot mtl 3dd mtl 1 2 3  whek zay el points.
-  # reassign new value
+# re assigning new value to the key
+boris_dict['number_budgets_passed'] = n_budget
 
-  boris_dict['number_budgets_passed'] = n_budget
-        boris_dict['number_budgets_passed'] += 1
- print(boris_dict)
+boris_dict['number_budgets_passed'] += 1  # now its 3
+print(boris_dict['number_budgets_passed'])
 
-# get all the keys.
-
+# get all the keys
+print(boris_dict.keys())
 
 # get all the values
+print(boris_dict.values())
